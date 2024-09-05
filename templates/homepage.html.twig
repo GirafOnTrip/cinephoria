@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil - Cinephoria</title>
+    <link rel="stylesheet" href="{{ asset('home.css') }}">
+</head>
+
+<body>
+    {% block header %}
+    {% include 'header.html.twig' %}
+    {% endblock %}
+
+    <main role="main" class="container">
+        <h1>Bienvenue sur Cinephoria</h1>
+        <p>Ceci est la page d'accueil.</p>
+    </main>
+</body>
+
+</html>
